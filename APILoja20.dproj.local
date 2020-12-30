@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/12/30 15:27:15.000.817,=C:\Nelson\UniGui\APILoja20\ServerModule.pas</Transaction>
+    <Transaction>2020/12/30 15:27:15.000.868,=C:\Nelson\UniGui\APILoja20\MainModule.pas</Transaction>
+    <Transaction>2020/12/30 15:27:16.000.332,=C:\Nelson\UniGui\APILoja20\Main.pas</Transaction>
+    <Transaction>2020/12/30 15:28:28.000.304,=C:\Nelson\UniGui\APILoja20\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 15:29:32.000.372,C:\Nelson\UniGui\APILoja20\ULogin.dfm=C:\Nelson\UniGui\APILoja20\Unit1.dfm</Transaction>
+    <Transaction>2020/12/30 15:29:32.000.372,C:\Nelson\UniGui\APILoja20\ULogin.pas=C:\Nelson\UniGui\APILoja20\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 16:06:25.000.110,C:\Nelson\UniGui\APILoja20\APILoja20.dproj=C:\Nelson\UniGui\APILoja20\Project1.dproj</Transaction>
+    <Transaction>2020/12/30 16:07:02.000.383,=C:\Nelson\UniGui\APILoja20\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 16:07:52.000.049,C:\Nelson\UniGui\APILoja20\UframeHome.pas=C:\Nelson\UniGui\APILoja20\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 16:07:52.000.049,C:\Nelson\UniGui\APILoja20\UframeHome.dfm=C:\Nelson\UniGui\APILoja20\Unit1.dfm</Transaction>
+    <Transaction>2020/12/30 16:45:31.886,=C:\Nelson\UniGui\APILoja20\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 16:45:58.955,C:\Nelson\UniGui\APILoja20\UframeClientes.pas=C:\Nelson\UniGui\APILoja20\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 16:45:58.955,C:\Nelson\UniGui\APILoja20\UframeClientes.dfm=C:\Nelson\UniGui\APILoja20\Unit1.dfm</Transaction>
+    <Transaction>2020/12/30 16:55:18.672,=C:\APILoja20\UGlobal.pas</Transaction>
+  </Transactions>
+</BorlandProject>
