@@ -11,17 +11,6 @@ object MainForm: TMainForm
   OnCreate = UniFormCreate
   PixelsPerInch = 96
   TextHeight = 13
-  object UniTreeMenu1: TUniTreeMenu
-    Left = 0
-    Top = 49
-    Width = 174
-    Height = 503
-    Hint = ''
-    Items.FontData = {0100000000}
-    LayoutConfig.Cls = 'color:white;'
-    SourceMenu = UniMenuItems1
-    Color = 10440704
-  end
   object UniPanel1: TUniPanel
     Left = 0
     Top = 0
@@ -48,10 +37,10 @@ object MainForm: TMainForm
       Caption = ''
       Color = 9521152
       object UniImage1: TUniImage
-        Left = 1
-        Top = 1
-        Width = 172
-        Height = 47
+        Left = 0
+        Top = 0
+        Width = 174
+        Height = 49
         Hint = ''
         Center = True
         Stretch = True
@@ -2581,6 +2570,17 @@ object MainForm: TMainForm
       LayoutConfig.Margin = '0 15 0 0'
     end
   end
+  object UniTreeMenu1: TUniTreeMenu
+    Left = 0
+    Top = 49
+    Width = 174
+    Height = 503
+    Hint = ''
+    Items.FontData = {0100000000}
+    LayoutConfig.Cls = 'color:white;'
+    SourceMenu = UniMenuItems1
+    Color = 10440704
+  end
   object pagePrincipal: TUniPageControl
     Left = 174
     Top = 49
@@ -2589,7 +2589,9 @@ object MainForm: TMainForm
     Hint = ''
     TabBarVisible = False
     Align = alClient
+    LayoutConfig.Margin = '0'
     TabOrder = 2
+    ExplicitWidth = 497
   end
   object UniMenuItems1: TUniMenuItems
     Images = UniNativeImageList1

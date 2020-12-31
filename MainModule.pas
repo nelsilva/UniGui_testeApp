@@ -315,6 +315,7 @@ type
     CDS_Clientetransportadora: TWideStringField;
     CDS_Clientefornecedor_representante: TWideStringField;
     CDS_Clientecodigo: TWideStringField;
+    CDS_ClienteAcoes: TStringField;
     procedure conexaoBeforeConnect(Sender: TObject);
   private
     { Private declarations }

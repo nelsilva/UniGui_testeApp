@@ -1,7 +1,7 @@
 object UniServerModule: TUniServerModule
   OldCreateOrder = False
   TempFolder = 'temp\'
-  Title = 'API Loja 2.0'
+  Title = 'New Application'
   SuppressErrors = []
   Bindings = <>
   MainFormDisplayMode = mfPage
@@ -81,42 +81,6 @@ object UniServerModule: TUniServerModule
     '  text-align:center;  '
     '  vertical-align: middle;'
     '}')
-  CustomMeta.Strings = (
-    
-      '<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/d' +
-      'ist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gi' +
-      'JF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" ' +
-      'crossorigin="anonymous">'
-    
-      '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/' +
-      'dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa' +
-      '4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin' +
-      '="anonymous"></script>'
-    
-      '<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/d' +
-      'ist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u' +
-      '/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymou' +
-      's"></script>'
-    
-      '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/' +
-      'dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1f' +
-      'F1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anony' +
-      'mous"></script>'
-    ''
-    '<style>'
-    '.btn-crud { '
-    '    cursor: pointer;'
-    '    min-width: 100px;'
-    '    max-height: 30px;'
-    '    padding: 0px;'
-    '    font-size: 0.8em;'
-    '  }'
-    '  '
-    '.x-grid-row-selected .x-grid-cell-inner {'
-    '  font-weight: bold;'
-    '  background-color:green;'
-    '}'
-    '</style>')
   SSL.SSLOptions.RootCertFile = 'root.pem'
   SSL.SSLOptions.CertFile = 'cert.pem'
   SSL.SSLOptions.KeyFile = 'key.pem'
@@ -127,6 +91,6 @@ object UniServerModule: TUniServerModule
   SSL.SSLOptions.VerifyDepth = 0
   ConnectionFailureRecovery.ErrorMessage = 'Connection Error'
   ConnectionFailureRecovery.RetryMessage = 'Retrying...'
-  Height = 150
-  Width = 215
+  Height = 502
+  Width = 730
 end

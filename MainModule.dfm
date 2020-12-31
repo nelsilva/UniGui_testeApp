@@ -266,6 +266,11 @@ object UniMainModule: TUniMainModule
       Origin = 'codigo'
       Size = 10
     end
+    object CDS_ClienteAcoes: TStringField
+      FieldKind = fkInternalCalc
+      FieldName = 'Acoes'
+      Size = 1000
+    end
   end
   object conexao_fotos: TFDConnection
     Params.Strings = (
